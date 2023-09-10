@@ -8,7 +8,7 @@ export const NavBar = () => {
             <div className="container-fluid">
                 <Link className="navbar-brand" to="/"><img className="img-navbar" src="/logo_ITDG.png" alt="" /> Tiempo de Gloria </Link>
                 
-                <div className="collapse navbar-collapse justify-content-end me-5" id="navbarNav">
+                <div className="collapse navbar-collapse justify-content-end me-5 fw-semibold fs-5" id="navbarNav">
                     <ul className="navbar-nav">
                         <NavLink 
                             className={ ({ isActive }) => `nav-link me-3 ${ isActive ? 'active' : ''}`}

@@ -6,7 +6,7 @@ export const HorariosHome = () => {
   return (
     <>
         <div className="contianer colorHorarios ">
-          <div className="row">
+          <div className="row marginHorarios">
             <Fade top>
               <h3 className="mb-1 ">Cultos Sede Central Zenteno</h3>
             </Fade>

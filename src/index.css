@@ -38,18 +38,22 @@ h3{
 }
 
 /* inicio Parallax Home */
-.imgParallaxHome{
-    width: 105vw;
+.contenedorParallax{
+    width: 100vw;
     height: 60vh;
+    margin-bottom: -18px;
     margin-left: -25px;
-    margin-right: -50px;
+}
+.imgParallaxHome{
+    width: 102vw;
+    height: 61vh;
 }
 /* Fin Parallax Home */
 
  /* inicio Obispo Home */
 .Image-Home{
-    width: 600px !important;
-    height: 60vh;
+    width: 400px !important;
+    height: 60vh; 
     border-radius: 30px 30px 30px 30px !important;
     margin-left: inherit;
 }
@@ -85,6 +89,12 @@ h3{
     display: flex;
     gap: 2rem;
 }
+
+.marginHorarios{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
 .CultosSemanales {
     margin-top: -8px;
     margin-bottom: 2rem;
@@ -173,6 +183,31 @@ h3{
  /* Fin Ubicacion Home */
 
  /* Ubicaciones MAP */
+.background-Ubicaciones{
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    margin-top: -20px !important;
+}
+
+             
+.btn-grad {
+    background-image: linear-gradient(to right, #00c6ff 0%, #0072ff  51%, #00c6ff  100%);
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
  
 .iframeUbicaciones{
     width:90%; 
@@ -212,3 +247,37 @@ h3{
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
+
+
+/* Fin Ubicaciones MAP */
+
+/* inicio card carrousel Ubicaciones MAP */
+
+.card-carrousel {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 5px solid rgb(0 0 0 / 13%);
+    border-radius: 15px;
+    height: 145px;
+}
+
+.card-body-carrousel {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+.card-text1-carrousel {
+    font-size: 1rem;
+    margin-bottom: 0px !important;
+}
+hr{
+    margin: 0.2rem !important;
+}
+/* Fin card carrousel Ubicaciones MAP */
